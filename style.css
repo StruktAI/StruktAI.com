@@ -50,6 +50,13 @@ body {
   }
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .logo img {
   width: 72px;
   filter: grayscale(100%) brightness(1.3);
