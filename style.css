@@ -19,10 +19,16 @@ body {
 
 .logo img {
   display: block;
-  margin: 0 auto 1.5rem auto;
-  max-width: 180px;
-  border-radius: 12px;
-  filter: grayscale(100%) brightness(1.2);
+  margin: 0 auto 1rem auto;
+  width: 96px;
+  height: auto;
+  border-radius: 8px;
+  filter: grayscale(100%) brightness(1.1);
+}
+
+.logo img:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease;
 }
 
 h1, h2 {
