@@ -1,94 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>STRUKT.AI // BLACKSITE DROP 001</title>
-  <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=DM+Mono&display=swap" />
-  <style>
-    body {
-      background-color: #000;
-      color: #0ff;
-      font-family: 'DM Mono', monospace;
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      overflow: hidden;
-    }
-    .terminal {
-      background: #111;
-      border: 2px solid #0ff;
-      padding: 30px;
-      max-width: 700px;
-      box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
-    }
-    .glow {
-      animation: glow 1.5s ease-in-out infinite alternate;
-    }
-    @keyframes glow {
-      from {
-        text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
-      }
-      to {
-        text-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
-      }
-    }
-    .sigil {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-    }
-    .sigil img {
-      width: 60px;
-      filter: invert(100%) brightness(150%);
-    }
-    .button {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 12px 28px;
-      background-color: #0ff;
-      color: #000;
-      font-weight: bold;
-      border-radius: 4px;
-      text-decoration: none;
-      transition: background 0.3s;
-    }
-    .button:hover {
-      background-color: #00cccc;
-    }
-    footer {
-      position: absolute;
-      bottom: 20px;
-      font-size: 0.85rem;
-      color: #0ff;
-    }
-  </style>
-</head>
-<body>
-  <div class="sigil">
-    <img src="../assets/sigil.svg" alt="StruktAI">
-  </div>
-  <div class="terminal">
-    <p class="glow">> INITIALIZING SUB-NODE: DROP.STRUKTAI</p>
-    <p>> NODE TYPE: OPS ISSUE TERMINAL</p>
-    <p>> STATUS: ONLINE // CONNECTION SECURE</p>
-    <br>
-    <p>> CURRENT DEPLOYMENT: DRP-001</p>
-    <p>> UNIT ID: 04X-23-01</p>
-    <p>> CLASS: LOW-VIS OPS GEAR</p>
-    <p>> FUNCTION: PRESENCE / IDENTITY CONTAINMENT</p>
-    <p><em>> You are not browsing. You are interfacing.</em></p>
-    <br>
-    <a href="https://struktai.bigcartel.com" class="button">ENGAGE OPS LINK</a>
-  </div>
-  <footer>
-    © 2025 STRUKTAI — Deployment Node DRP-001. Structured for what's next.
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StruktAI // Not for now</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=DM+Mono&display=swap" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+
+    <div class="sigil">
+      <img src="assets/sigil.svg" alt="StruktAI" />
+    </div>
+    
+    <main>
+      <div class="logo">
+        <img src="assets/struktai_logo_converted.jpg" alt="StruktAI Logo" />
+      </div>
+      <div class="terminal">
+        <p>> SYSTEM INITIALIZING...</p>
+        <p>> LOADING NODE: STRUKTAI</p>
+        <p>> CONNECTION STABLE // ACCESS LEVEL: RESTRICTED</p>
+      </div>
+      <h1>NOT FOR NOW<span class="cursor">_</span></h1>
+      <h2>FOR WHAT'S NEXT</h2>
+      <div class="buttons">
+        <a href="https://github.com/StruktAI" target="_blank">ACCESS GITHUB</a>
+        <a href="https://drop.struktai.com/">BLACKSITE DROP</a>
+      </div>
+    </main>
+    <footer>
+      <span>© 2025 STRUKTAI</span> — Structured for what’s next. <a href="LICENSE.md" target="_blank" rel="noopener noreferrer">License</a>
+    </footer>
+    <audio id="bgm" src="assets/ambient.mp3" autoplay loop hidden></audio>
+  </body>
 </html>
