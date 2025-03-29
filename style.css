@@ -16,6 +16,13 @@ body {
   margin-bottom: 1rem;
 }
 
+.logo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 120px;
+  border-radius: 12px;
+}
+
 h1, h2 {
   margin: 0.5rem 0;
   letter-spacing: 0.05em;
